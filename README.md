@@ -1,4 +1,4 @@
-# Dynamic Mask Splicing-guided Mixing Consistency for Semi-supervised 3D Medical Image Segmentation
+# Dynamic mask Stitching-guided Region Consistency for Semi-supervised 3D Medical Image Segmentation
 by Jiahui Wang, Mingfeng Jiang*, Dongsheng Ruan, Yang Li, Tao Tan
 ## Introduction
 This repository is for our paper '[Dynamic Mask Splicing-guided Mixing Consistency for Semi-supervised 3D Medical Image Segmentation]
