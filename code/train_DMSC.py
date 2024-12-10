@@ -261,8 +261,8 @@ if __name__ == "__main__":
             # print('fetch data cost {}'.format(time2-time1))
             volume_batch, label_batch = sampled_batch['image'], sampled_batch['label']
             volume_batch, label_batch = volume_batch.cuda(), label_batch.cuda()
-            img_a, img_b = volume_batch[:sub_bs], volume_batch[sub_bs:]
-            lab_a, lab_b = label_batch[:sub_bs], label_batch[sub_bs:]
+            img_a, img_b = volume_batch[:sub_bs], volume_batch[sub_bs:labeled_bs]
+            lab_a, lab_b = label_batch[:sub_bs], label_batch[sub_bs:labeled_bs]
             unimg_a, unimg_b = volume_batch[args.labeled_bs:args.labeled_bs+sub_bs], volume_batch[args.labeled_bs+sub_bs:]
             with torch.no_grad():
                 unoutput_a = ema_model(unimg_a)
