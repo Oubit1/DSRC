@@ -1,7 +1,7 @@
 # Dynamic mask Stitching-guided Region Consistency for Semi-supervised 3D Medical Image Segmentation
 by Jiahui Wang, Mingfeng Jiang*, Dongsheng Ruan, Yang Li, Tao Tan
 ## Introduction
-This repository is for our paper '[Dynamic Mask Splicing-guided Mixing Consistency for Semi-supervised 3D Medical Image Segmentation]
+This repository is for our paper '[Dynamic mask Stitching-guided Region Consistency for Semi-supervised 3D Medical Image Segmentation]
 ## Requirements
 This repository is based on Pytorch 1.9.1, CUDA11.1 and Python 3.6.5
 ## Usage
