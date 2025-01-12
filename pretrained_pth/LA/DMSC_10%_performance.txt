@@ -1,1 +1,1 @@
-average metric of decoder 1 is [0.91413513 0.84248971 5.18324727 1.5987264 ] 
+average metric of decoder 1 is [0.89843077 0.81662125 8.10915991 2.2869073] 
