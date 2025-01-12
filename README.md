@@ -12,8 +12,7 @@ We use [the dataset of Pancreas-CT](https://drive.google.com/file/d/1qzFUtkHx-46
 ### Preprocess
 If you want to process .nrrd data into .h5 data, you can use `code/dataloaders/preprocess.py`.
 ### Pretrained_pth
-LA:「DMSC_LA_pretrained_pth.rar」https://pan.quark.cn/s/47f2161c5cfa  //uUqS
-Pancreas_CT:「DMSC_Pretrained_pth_Pancreas.rar」https://pan.quark.cn/s/ad537e31e52a  //JVVH
+https://pan.quark.cn/s/1a5981ee72ea
 
 
 ## Acknowledgements
